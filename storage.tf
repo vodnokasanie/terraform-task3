@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "cmtr_ghjc0xhd_bucket_1761827232" {
   tags = {
     Project = "cmtr-ghjc0xhd"
   }
-  
+
   lifecycle {
     prevent_destroy = false
   }
